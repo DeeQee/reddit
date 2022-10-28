@@ -11,14 +11,14 @@ module.exports = {
     title: "Barcadia",
     description: "A super-fast site using GatsbyJS",
     author: "Morgan Baker",
-    twitterUsername: "barcadia",
-    facebookUsername: "barcadia",
-    instagramUsername: "barcadia",
+    twitterUsername: "deeqeevee",
+    facebookUsername: "deeqeevee",
+    instagramUsername: "deeqeevee",
     linkedinUsername: "morgan-baker-development",
     image: "/macbook-color.jpg",
     siteUrl: "https://barcadia.netlify.com",
-    developerName: "Morgan Baker Development",
-    developerUrl: "https://www.morganbaker.dev",
+    developerName: "DeeQeeVee",
+    developerUrl: "https://facebook.com/deeqeevee",
   },
   /* Your site config here */
   plugins: [
@@ -27,9 +27,9 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        spaceId: "qbp8s617ncwp",
         // Learn about environment variables: https://gatsby.dev/env-vars
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+        accessToken: "Zj2VTDu3shDGRS6MFlSJtxgzLJ30dQnNcg161UUT4Gc",
       },
     },
     {
